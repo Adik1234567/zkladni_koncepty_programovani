@@ -45,5 +45,6 @@ print("Strana c v trojúhelníku je: " + str(c_troju) + " a je zaokrouhlená na 
 
 
 # objem valec pomoci kruhu s vyskou kvadru
+
 objem_valec = obsah_kruhu * v_kvadr
 print("Objem valce je: " + str(objem_valec))
