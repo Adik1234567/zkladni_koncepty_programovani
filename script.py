@@ -44,7 +44,7 @@ c_troju = round(math.sqrt(pow(a_troju, 2) + pow(b_troju, 2)), zaok_troju) # vypo
 print("Strana c v trojúhelníku je: " + str(c_troju) + " a je zaokrouhlená na " + str(zaok_troju) + " desetinná místa") # zas print
 
 
-# objem valec pomoci kruhu s vyskou kvadru
+# objem valec pomoci kruhu s vyskou kvadr
 
 objem_valec = obsah_kruhu * v_kvadr
 print("Objem valce je: " + str(objem_valec))
