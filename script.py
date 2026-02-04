@@ -49,7 +49,7 @@ def c_troju(a_troju, b_troju, zaok_troju): # vypocitani pomoci: odmocniny a na 2
 print("Strana c v trojúhelníku je: " + str(c_troju(a_troju, b_troju, zaok_troju)) + " a je zaokrouhlená na " + str(zaok_troju) + " desetinná místa") # zas print
 
 
-# objem valec pomoci kruhu s vyskou kvadr
+# objem valec pomoci kruhu s vyskou kvadru
 
 def objem_valec(obsah_kruhu, zaok_kruhu, v_kvadr):
     return obsah_kruhu(prumer_kruhu, zaok_kruhu) * v_kvadr
