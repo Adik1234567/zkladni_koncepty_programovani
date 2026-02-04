@@ -40,10 +40,12 @@ print("Povrch kvádru je: " + str(povrch_kvadr(v_kvadr, s_kvadr, d_kvadr))) # a 
 
 # Výpočet 3 strany v trojúhelníku
 
-a_troju = 6 # strana a
+a_troju = 9 # strana a
 b_troju = 7 # strana b
 zaok_troju = 4 # zaokrouhlení na kolik desetiných míst
 def c_troju(a_troju, b_troju, zaok_troju): # vypocitani pomoci: odmocniny a na 2 + b na 2 a zaokrouhleni celeho vypoctu
+    if pow(a_troju, 2) + pow(b_troju, 2) == 0:
+        return "(nelze kvůli 0)"
     return round(math.sqrt(pow(a_troju, 2) + pow(b_troju, 2)), zaok_troju)
 
 print("Strana c v trojúhelníku je: " + str(c_troju(a_troju, b_troju, zaok_troju)) + " a je zaokrouhlená na " + str(zaok_troju) + " desetinná místa") # zas print
